@@ -85,9 +85,6 @@
     <EmbeddedResource Include="Resources\shoot away images.gif" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Resources\load image 1.gif" />
-  </ItemGroup>
-  <ItemGroup>
     <EmbeddedResource Include="Resources\shoot on head.gif" />
   </ItemGroup>
   <ItemGroup>
@@ -104,6 +101,30 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Resources\slot-machine-daniel_simon.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Image1.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\play image1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\play game sound.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\loading gun sound.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\loadimage.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\picbox.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shoot image.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

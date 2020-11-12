@@ -18,6 +18,13 @@ namespace SimpleGame
         {
             load_position = 1;
         }
+
+         public int spin()
+        {
+            Random rnd_obj = new Random();
+            spin_position = rnd_obj.Next(1, 7);
+            return spin_position;
+        }
         public int shoot()
         {
             if (load_position == spin_position)
@@ -36,6 +43,7 @@ namespace SimpleGame
             }
 
         }
-
     }
 }
+    
+

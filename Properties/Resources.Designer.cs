@@ -61,11 +61,12 @@ namespace SimpleGame.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.IO.UnmanagedMemoryStream game_load_sound {
+        internal static System.Drawing.Bitmap images {
             get {
-                return ResourceManager.GetStream("game_load_sound", resourceCulture);
+                object obj = ResourceManager.GetObject("images", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
             }
         }
         
@@ -82,9 +83,77 @@ namespace SimpleGame.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap loadimage {
+            get {
+                object obj = ResourceManager.GetObject("loadimage", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream loading_gun_sound {
+            get {
+                return ResourceManager.GetStream("loading_gun_sound", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap picbox {
+            get {
+                object obj = ResourceManager.GetObject("picbox", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream play_game_sound {
+            get {
+                return ResourceManager.GetStream("play_game_sound", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap play_image {
+            get {
+                object obj = ResourceManager.GetObject("play_image", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap play_image1 {
+            get {
+                object obj = ResourceManager.GetObject("play_image1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap shoot_away_images {
             get {
                 object obj = ResourceManager.GetObject("shoot_away_images", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap shoot_image {
+            get {
+                object obj = ResourceManager.GetObject("shoot image", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
