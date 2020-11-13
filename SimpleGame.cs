@@ -33,12 +33,14 @@ namespace SimpleGame
 
             pic_box.Image = bmp_Object;
 
+            //code to play the sound when click on the button 
             System.Media.SoundPlayer Sound_Object = new System.Media.SoundPlayer(SimpleGame.Properties.Resources.loading_gun_sound);
 
             Sound_Object.Play();
 
             Class_obj.load();
             //code to enabled spin and load btn
+
             btn_Spin.Enabled = true;
             btn_load.Enabled = false;
         }

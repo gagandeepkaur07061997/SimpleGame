@@ -13,12 +13,13 @@ namespace SimpleGame
         public int spin_position;
         public int shoot_position;
         public int chance = 0;
-
+        //code to load the gun when click on button 
         public void load()
         {
             load_position = 1;
         }
 
+        //code to spin the gun when click on the button 
          public int spin()
         {
             Random rnd_obj = new Random();
