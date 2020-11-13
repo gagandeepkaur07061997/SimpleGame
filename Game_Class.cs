@@ -25,6 +25,7 @@ namespace SimpleGame
             spin_position = rnd_obj.Next(1, 7);
             return spin_position;
         }
+        //code to clear the position of the bullet when click on button 
         public int shoot()
         {
             if (load_position == spin_position)

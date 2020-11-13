@@ -126,5 +126,11 @@
   <ItemGroup>
     <None Include="Resources\images.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="UnitTest_SimpleGame_project\UnitTest_SimpleGame_project.csproj">
+      <Project>{364cda03-483a-450b-bb25-2665d34b7f16}</Project>
+      <Name>UnitTest_SimpleGame_project</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
